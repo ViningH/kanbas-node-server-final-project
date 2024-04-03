@@ -1,0 +1,31 @@
+{
+  "name": "kanbas-node-server-final-project",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for the Kanbas final project application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViningH/kanbas-node-server-final-project.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP",
+    "Web",
+    "Development",
+    "CS5610"
+  ],
+  "author": "Hannah Vining, Ami Yokoyama, Claire Dudley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViningH/kanbas-node-server-final-project/issues"
+  },
+  "homepage": "https://github.com/ViningH/kanbas-node-server-final-project#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
