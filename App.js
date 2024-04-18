@@ -1,5 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import UserRoutes from "./Users/routes.js";
 import QuizRoutes from './Kanbas/quizzes/routes.js';
 import CourseRoutes from "./Kanbas/courses/routes.js";
 import ModuleRoutes from "./Kanbas/modules/routes.js";
@@ -34,6 +35,7 @@ app.use(
     session(sessionOptions)
 );
 app.use(express.json());
+UserRoutes(app);
 QuizRoutes(app);
 QuestionRoutes(app);
 AssignmentRoutes(app);
