@@ -2,6 +2,7 @@ export default [
     {
         "_id": "Q101",
         "course": "RS101",
+        "title": "Q1 - Rockets",
         "quiztype": "GRADEDQUIZ",
         "published": true,
         "points": 100,
