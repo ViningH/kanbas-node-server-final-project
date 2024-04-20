@@ -3,6 +3,7 @@ const quizSchema = new mongoose.Schema({
     _id: String,
     course: { type: String, required: true},
     title: String,
+    description: String,
     quiztype: {
         type: String,
         enum: ["GRADEDQUIZ", "PRACTICEQUIZ", "GRADEDSURVEY", "UNGRADEDSURVEY"],
