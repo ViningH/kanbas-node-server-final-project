@@ -9,7 +9,7 @@ import cors from "cors";
 import "dotenv/config";
 import session from "express-session";
 import QuestionRoutes from './Kanbas/questions/routes.js';
-const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas'
+const CONNECTION_STRING = 'mongodb://127.0.0.1:27017/kanbas' || process.env.DB_CONNECTION_STRING 
 mongoose.connect(CONNECTION_STRING);
 const app = express();
 app.use(cors(
