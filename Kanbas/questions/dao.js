@@ -1,6 +1,5 @@
 import model from "./model.js";
 export const addQuestion = (question) => {
-    delete question._id
     return model.create(question);
 }
 export const findQuestionsForQuiz = (quizId) => model.find({ quiz: quizId });
