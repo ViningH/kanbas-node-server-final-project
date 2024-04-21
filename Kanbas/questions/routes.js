@@ -23,7 +23,7 @@ export default function QuestionRoutes(app) {
     };
     const updateQuestion = async (req, res) => {
         const { quid } = req.params;
-        const status = await dao.updateQuiz(quid, req.body);
+        const status = await dao.updateQuestion(quid, req.body);
         res.json(status);
     };
     app.get("/api/questions/:quid", findQuestionById);
