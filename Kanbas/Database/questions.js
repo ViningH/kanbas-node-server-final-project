@@ -8,23 +8,23 @@ export default [
         "questiontype": "MULTIPLECHOICE",
         "choices": [
             {
-                "choice_no": 1,
+                "choice_no": "1",
                 "choice_text": "choice 1"
             },
             {
-                "choice_no": 2,
+                "choice_no": "2",
                 "choice_text": "choice 2"
             },
             {
-                "choice_no": 3,
+                "choice_no": "3",
                 "choice_text": "choice 3"
             },
             {
-                "choice_no": 4,
+                "choice_no": "4",
                 "choice_text": "choice 4"
             },
         ],
-        "multiple_answer": 2,
+        "multiple_answer": "2",
     },
     {
         "_id": "QU103",
@@ -35,17 +35,17 @@ export default [
         "questiontype": "FILLINBLANKS",
         "blanks": [
             {
-                "blank_no": 1,
+                "blank_no": "1",
                 "label": "Answer 1",
                 "answer": "One"
             },
             {
-                "blank_no": 2,
+                "blank_no": "2",
                 "label": "Answer 2",
                 "answer": "Two"
             },
             {
-                "blank_no": 3,
+                "blank_no": "3",
                 "label": "Answer 3",
                 "answer": "Three"
             },

@@ -13,14 +13,14 @@ const questionSchema = new mongoose.Schema({
     tf_answer: Boolean,
     choices: [
         {
-            choice_no: Number,
+            choice_no: String,
             choice_text: String
         }
     ],
-    multiple_answer: Number,
+    multiple_answer: String,
     blanks: [
         {
-            blank_no: Number,
+            blank_no: String,
             label: String,
             answer: String
         }
